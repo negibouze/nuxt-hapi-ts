@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-hapi-ts",
+  "version": "1.0.0",
+  "description": "My cat&#39;s pajamas Nuxt.js project",
+  "author": "negibouze",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "hapi-nuxt": "^1.0.1",
+    "nuxt": "^2.4.0",
+    "ts-node": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.6.2",
+    "nodemon": "^1.18.9"
+  }
+}
